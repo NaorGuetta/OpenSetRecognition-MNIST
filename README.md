@@ -26,6 +26,12 @@ This dual strategy enhances the model's ability to distinguish between known and
   - Classifier training on known classes
   - OSR strategy implementation
   - Evaluation metrics and visualization
+
+- See [`ADL_Final_Project_Report.pdf`](./ADL_Final_Project_Report.pdf) for a full explanation of:
+  - Why we chose MultiTask AutoEncoder over ODIN
+  - Our dual-method: reconstruction error + latent space distance
+  - Hyperparameter tuning with Optuna
+  - Results: confusion matrices, t-SNE
   
 
 ## 🛠️ Requirements
