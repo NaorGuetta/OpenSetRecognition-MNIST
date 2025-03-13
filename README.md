@@ -17,8 +17,6 @@ This project demonstrates **Open Set Recognition (OSR)** on the classic **MNIST*
   - **Reconstruction Error**: Higher errors indicate unfamiliar (unknown) samples.
   - **Latent Space Distance**: The model measures the distance between a sample’s latent embedding and the centroid of each known class cluster. If the distance exceeds a threshold, the sample is flagged as "unknown."
 
-This dual strategy enhances the model's ability to distinguish between known and unknown classes effectively.
-
 
 ## 🔨 What’s Inside
 - `OsrOnMNIST.ipynb` - Jupyter Notebook containing:
